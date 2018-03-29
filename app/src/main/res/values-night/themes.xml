@@ -15,12 +15,13 @@
   ~ limitations under the License.
   -->
 
-<TextView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/text"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:textAppearance="@style/TextAppearance.AppCompat.Title"
-    android:padding="8dp"
-    style="@style/TextViewLight"/>
+<resources>
+
+    <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat" />
+
+    <color name="preference_title">@android:color/white</color>
+
+    <style name="AppTheme.Main" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/grey_900</item>
+    </style>
+</resources>

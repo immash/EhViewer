@@ -15,12 +15,15 @@
   ~ limitations under the License.
   -->
 
-<TextView
+<vector
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/text"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:textAppearance="@style/TextAppearance.AppCompat.Title"
-    android:padding="8dp"
-    style="@style/TextViewLight"/>
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="@color/grey_400"
+        android:pathData="@string/pd_download"/>
+
+</vector>

@@ -262,6 +262,13 @@ public class Settings {
         return getIntFromStr(KEY_DETAIL_SIZE, DEFAULT_DETAIL_SIZE);
     }
 
+    public static final String KEY_NIGHT_MODE = "night_mode";
+    private static final int DEFAULT_NIGHT_MODE = 1;
+
+    public static int getNightMode() {
+        return getIntFromStr(KEY_NIGHT_MODE, DEFAULT_NIGHT_MODE);
+    }
+
     @DimenRes
     public static int getDetailSizeResId() {
         switch (getDetailSize()) {

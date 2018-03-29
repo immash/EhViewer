@@ -20,7 +20,7 @@
     <!-- ========== -->
     <!-- Base Theme -->
     <!-- ========== -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -49,7 +49,7 @@
     <!-- =============== -->
     <!-- Base Dark Theme -->
     <!-- =============== -->
-    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.DayNight">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -68,6 +68,7 @@
     <!-- App Theme -->
     <!-- ========= -->
     <style name="AppTheme.Main" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/background_light</item>
     </style>
 
     <style name="AppTheme.Gallery" parent="AppTheme.Dark.NoActionBar">
@@ -78,10 +79,12 @@
     <!-- ============ -->
     <!-- Widget Theme -->
     <!-- ============ -->
-    <style name="CommentEditText" parent="Theme.AppCompat">
+    <style name="CommentEditText" parent="Theme.AppCompat.DayNight">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@android:color/white</item>
     </style>
+
+    <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat.Light"/>
 
 </resources>

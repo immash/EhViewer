@@ -25,6 +25,7 @@ import android.os.Debug;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.util.LruCache;
+import android.support.v7.app.AppCompatDelegate;
 import android.util.Log;
 import com.hippo.beerbelly.SimpleDiskCache;
 import com.hippo.conaco.Conaco;
@@ -135,6 +136,11 @@ public class EhApplication extends RecordingApplication implements Thread.Uncaug
         if (DEBUG_PRINT_NATIVE_MEMORY || DEBUG_PRINT_IMAGE_COUNT) {
             debugPrint();
         }
+        setNightMode();
+    }
+
+    private void setNightMode() {
+        AppCompatDelegate.setDefaultNightMode(Settings.getNightMode());
     }
 
     private void clearTempDir() {

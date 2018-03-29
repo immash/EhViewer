@@ -36,7 +36,10 @@
     <color name="primary_text_disabled_light">#39000000</color>
     <color name="secondary_text_default_dark">#61ffffff</color>
     <color name="secondary_text_disabled_light">#24000000</color>
+    <color name="primary_text">@color/primary_text_light</color>
 
+    <color name="background">@color/background_light</color>
+    <color name="background_card">@color/background_light</color>
     <color name="background_dark">#ff303030</color>
     <color name="background_light">#fffafafa</color>
 
@@ -51,7 +54,10 @@
     <color name="light_green_600">#ff7cb342</color>
     <color name="yellow_800">#fff9a825</color>
     <color name="deep_orange_400">#ffff7043</color>
+    <color name="grey_900">#ff212121</color>
+    <color name="grey_800">#ff424242</color>
     <color name="grey_500">#ff9e9e9e</color>
+    <color name="grey_400">#ffbdbdbd</color>
     <color name="grey_300">#ffe0e0e0</color>
     <color name="grey_200">#ffeeeeee</color>
     <color name="brown_500">#ff795548</color>
@@ -113,5 +119,13 @@
     <color name="lock_pattern_view_regular_color">#8a000000</color>
     <color name="lock_pattern_view_success_color">@color/colorPrimary</color>
     <color name="lock_pattern_view_error_color">@color/red_500</color>
+
+    <color name="preference_title">@color/grey_900</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="card_shadow_1">#d4d4d4d4</color>
+    <color name="card_shadow_2">#dddddddd</color>
+    <color name="card_detailing">#eee</color>
+    <color name="background_search_bar">@color/background_light</color>
 
 </resources>

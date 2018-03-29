@@ -41,9 +41,9 @@
                 android:layout_marginLeft="48dp"
                 android:layout_marginRight="48dp"
                 android:textSize="@dimen/text_little_large"
-                android:textColor="@color/secondary_text_light"
                 android:singleLine="true"
-                android:maxLines="1"/>
+                android:maxLines="1"
+                android:textColor="@color/secondary_text_light"/>
 
             <ImageView
                 android:id="@+id/search_action"
