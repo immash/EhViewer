@@ -19,7 +19,7 @@
 
     <color name="primary_drawable_light">#8affffff</color>
 
-    <color name="colorPrimary">@color/grey_800</color>
+    <color name="colorPrimary">@color/grey_800</color>q
     <color name="colorPrimaryDark">@color/grey_900</color>
 
     <color name="secondary_text_color">@color/secondary_text_default_dark</color>
