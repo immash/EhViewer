@@ -111,6 +111,8 @@ public class EhApplication extends RecordingApplication implements Thread.Uncaug
             Analytics.start(this);
         }
 
+        setNightMode();
+
         // Check no media file
         UniFile downloadLocation = Settings.getDownloadLocation();
         if (Settings.getMediaScan()) {
@@ -136,7 +138,6 @@ public class EhApplication extends RecordingApplication implements Thread.Uncaug
         if (DEBUG_PRINT_NATIVE_MEMORY || DEBUG_PRINT_IMAGE_COUNT) {
             debugPrint();
         }
-        setNightMode();
     }
 
     private void setNightMode() {

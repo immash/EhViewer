@@ -17,10 +17,13 @@
 package com.hippo.ehviewer.ui.fragment;
 
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatDelegate;
+import android.util.Log;
 
 import com.hippo.ehviewer.EhApplication;
 import com.hippo.ehviewer.R;
@@ -45,6 +48,27 @@ public class EhFragment extends PreferenceFragment
         detailSize.setOnPreferenceChangeListener(this);
         thumbSize.setOnPreferenceChangeListener(this);
         nightMode.setOnPreferenceChangeListener(this);
+
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity().getApplication());
+
+        sharedPreferences.registerOnSharedPreferenceChangeListener(new SharedPreferences.OnSharedPreferenceChangeListener() {
+
+            @Override
+            public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
+                if (Settings.KEY_NIGHT_MODE.equals(key)){
+
+                    int nightmode = Integer.parseInt(sharedPreferences.getString(Settings.KEY_NIGHT_MODE,
+                            String.valueOf(AppCompatDelegate.getDefaultNightMode())));
+
+                    if (nightmode != AppCompatDelegate.getDefaultNightMode()){
+                        AppCompatDelegate.setDefaultNightMode(nightmode);
+                        ((EhApplication) getActivity().getApplication()).recreate();
+                    }
+
+                }
+
+            }
+        });
     }
 
     @Override
@@ -61,10 +85,6 @@ public class EhFragment extends PreferenceFragment
         } else if (Settings.KEY_THUMB_SIZE.equals(key)) {
             getActivity().setResult(Activity.RESULT_OK);
         } else if (Settings.KEY_NIGHT_MODE.equals(key)) {
-            int nightmode = Settings.getNightMode();
-            if (AppCompatDelegate.getDefaultNightMode() != nightmode){
-                AppCompatDelegate.setDefaultNightMode(nightmode);
-            }
             getActivity().setResult(Activity.RESULT_OK);
         }
         return true;
