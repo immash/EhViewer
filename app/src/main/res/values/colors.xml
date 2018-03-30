@@ -36,7 +36,9 @@
     <color name="primary_text_disabled_light">#39000000</color>
     <color name="secondary_text_default_dark">#61ffffff</color>
     <color name="secondary_text_disabled_light">#24000000</color>
-    <color name="primary_text">@color/primary_text_light</color>
+
+    <color name="primary_text_color">@color/primary_text_light</color>
+    <color name="secondary_text_color">@color/secondary_text_default_light</color>
 
     <color name="background">@color/background_light</color>
     <color name="background_card">@color/background_light</color>
@@ -123,9 +125,12 @@
     <color name="preference_title">@color/grey_900</color>
 
     <color name="transparent">#00000000</color>
-    <color name="card_shadow_1">#d4d4d4d4</color>
-    <color name="card_shadow_2">#dddddddd</color>
-    <color name="card_detailing">#eee</color>
+    <color name="card_shadow_1">#00CCCCCC</color>
+    <color name="card_shadow_2">#10CCCCCC</color>
+    <color name="card_shadow_3">#20CCCCCC</color>
+    <color name="card_shadow_4">#30CCCCCC</color>
+    <color name="card_shadow_5">#50CCCCCC</color>
+
     <color name="background_search_bar">@color/background_light</color>
 
 </resources>

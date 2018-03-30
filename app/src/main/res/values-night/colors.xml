@@ -17,18 +17,22 @@
 
 <resources>
 
+    <color name="primary_drawable_light">#8affffff</color>
+
     <color name="colorPrimary">@color/grey_800</color>
     <color name="colorPrimaryDark">@color/grey_900</color>
 
-    <color name="primary_text">@color/primary_text_dark</color>
+    <color name="secondary_text_color">@color/secondary_text_default_dark</color>
+    <color name="primary_text_color">@color/primary_text_dark</color>
 
-    <color name="background">@color/grey_900</color>
-    <color name="background_card">@color/grey_800</color>
+    <color name="background">@color/background_dark</color>
 
     <color name="gallery_background">#ff000000</color>
 
-    <color name="card_shadow_1">#dd222222</color>
-    <color name="card_shadow_2">#dd777777</color>
-    <color name="card_detailing">@color/grey_900</color>
-    <color name="background_search_bar">@color/grey_900</color>
+    <color name="card_shadow_1">#00111111</color>
+    <color name="card_shadow_2">#10111111</color>
+    <color name="card_shadow_3">#20111111</color>
+    <color name="card_shadow_4">#30111111</color>
+    <color name="card_shadow_5">#50111111</color>
+    <color name="background_search_bar">@color/background</color>
 </resources>

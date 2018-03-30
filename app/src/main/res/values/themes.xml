@@ -68,7 +68,7 @@
     <!-- App Theme -->
     <!-- ========= -->
     <style name="AppTheme.Main" parent="AppTheme.NoActionBar">
-        <item name="android:windowBackground">@color/background_light</item>
+        <item name="android:windowBackground">@color/background</item>
     </style>
 
     <style name="AppTheme.Gallery" parent="AppTheme.Dark.NoActionBar">

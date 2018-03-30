@@ -17,78 +17,85 @@
 <merge
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="48dp">
-
-            <ImageView
-                android:id="@+id/search_menu"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="left|center_vertical"
-                android:padding="12dp"/>
-
-            <TextView
-                android:id="@+id/search_title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="48dp"
-                android:layout_marginRight="48dp"
-                android:textSize="@dimen/text_little_large"
-                android:singleLine="true"
-                android:maxLines="1"
-                android:textColor="@color/secondary_text_light"/>
-
-            <ImageView
-                android:id="@+id/search_action"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="right|center_vertical"
-                android:padding="12dp"/>
-
-            <com.hippo.ehviewer.widget.SearchEditText
-                android:id="@+id/search_edit_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="48dp"
-                android:layout_marginRight="48dp"
-                android:textSize="@dimen/text_little_small"
-                android:background="@null"
-                android:singleLine="true"
-                android:maxLines="1"
-                android:visibility="gone"
-                android:imeOptions="actionSearch"
-                android:inputType="text"/>
-
-        </FrameLayout>
+        style="@style/MyCardView">
 
         <LinearLayout
-            android:id="@+id/list_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:visibility="gone">
+            android:orientation="vertical">
 
-            <View
-                android:id="@+id/list_header"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/divider"/>
+                android:layout_height="48dp">
 
-            <ListView
-                android:id="@+id/search_bar_list"
+                <ImageView
+                    android:id="@+id/search_menu"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:padding="12dp"/>
+
+                <TextView
+                    android:id="@+id/search_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginRight="48dp"
+                    android:textSize="@dimen/text_little_large"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:textColor="@color/secondary_text_light"/>
+
+                <ImageView
+                    android:id="@+id/search_action"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:padding="12dp"/>
+
+                <com.hippo.ehviewer.widget.SearchEditText
+                    android:id="@+id/search_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginRight="48dp"
+                    android:textSize="@dimen/text_little_small"
+                    android:background="@null"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:visibility="gone"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/list_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:divider="@color/divider"
-                android:dividerHeight="1dp"/>
+                android:orientation="vertical"
+                android:visibility="gone">
 
+                <View
+                    android:id="@+id/list_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider"/>
+
+                <ListView
+                    android:id="@+id/search_bar_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/divider"
+                    android:dividerHeight="1dp"/>
+
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+    </android.support.v7.widget.CardView>
 </merge>

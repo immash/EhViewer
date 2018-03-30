@@ -155,7 +155,7 @@
     </style>
 
     <style name="MyCardView">
-        <item name="android:background">@color/background_light</item>
+        <item name="android:background">@color/background</item>
         <item name="android:elevation">4dp</item>
         <item name="android:layout_margin">4dp</item>
     </style>

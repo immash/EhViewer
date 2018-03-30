@@ -111,15 +111,17 @@ public class SearchBar extends FrameLayout implements View.OnClickListener,
     }
 
     private void init(Context context) {
-        setBackgroundResource(R.drawable.card_grey_no_padding_2dp);
 
         mSearchDatabase = SearchDatabase.getInstance(getContext());
 
         LayoutInflater inflater = LayoutInflater.from(context);
         inflater.inflate(R.layout.widget_search_bar, this);
         mMenuButton = (ImageView) ViewUtils.$$(this, R.id.search_menu);
+        mMenuButton.setColorFilter(getResources().getColor(R.color.secondary_text_color));
         mTitleTextView = (TextView) ViewUtils.$$(this, R.id.search_title);
+        mTitleTextView.setTextColor(getResources().getColor(R.color.secondary_text_color));
         mActionButton = (ImageView) ViewUtils.$$(this, R.id.search_action);
+        mActionButton.setColorFilter(getResources().getColor(R.color.secondary_text_color));
         mEditText = (SearchEditText) ViewUtils.$$(this, R.id.search_edit_text);
         mListContainer = ViewUtils.$$(this, R.id.list_container);
         ListView list = (ListView) ViewUtils.$$(mListContainer, R.id.search_bar_list);

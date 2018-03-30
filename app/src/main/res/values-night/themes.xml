@@ -21,7 +21,4 @@
 
     <color name="preference_title">@android:color/white</color>
 
-    <style name="AppTheme.Main" parent="AppTheme.NoActionBar">
-        <item name="android:windowBackground">@color/grey_900</item>
-    </style>
 </resources>
