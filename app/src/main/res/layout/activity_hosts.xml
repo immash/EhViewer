@@ -40,7 +40,7 @@
     android:id="@+id/fab_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingRight="@dimen/corner_fab_margin"
+    android:paddingEnd="@dimen/corner_fab_margin"
     android:paddingBottom="@dimen/corner_fab_margin">
 
     <android.support.design.widget.FloatingActionButton

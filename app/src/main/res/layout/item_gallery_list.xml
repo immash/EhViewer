@@ -33,17 +33,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginTop="4dp"
-        android:layout_toRightOf="@id/thumb"/>
+        android:layout_toEndOf="@id/thumb"/>
 
     <TextView
         android:id="@+id/uploader"
         style="@style/CardMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/title"
+        android:layout_alignStart="@id/title"
         android:layout_below="@id/title"
         android:layout_marginTop="2dp"/>
 
@@ -52,12 +52,12 @@
         style="@style/CardMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/title"
+        android:layout_alignStart="@id/title"
         android:layout_alignBottom="@id/thumb"
         android:layout_marginBottom="8dp"
         android:paddingBottom="2dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
         android:paddingTop="2dp"
         android:textColor="@android:color/white"
         android:textAllCaps="true"/>
@@ -66,7 +66,7 @@
         android:id="@+id/rating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/title"
+        android:layout_alignStart="@id/title"
         android:layout_above="@id/category"
         android:layout_marginBottom="4dp"/>
 
@@ -76,8 +76,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/thumb"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="6dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="6dp"
         android:layout_marginBottom="4dp"/>
 
     <TextView
@@ -86,7 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/posted"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="6dp"/>
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="6dp"/>
 
 </RelativeLayout>

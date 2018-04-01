@@ -24,8 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingLeft="@dimen/search_category_padding_h"
-        android:paddingRight="@dimen/search_category_padding_h"
+        android:paddingStart="@dimen/search_category_padding_h"
+        android:paddingEnd="@dimen/search_category_padding_h"
         android:paddingBottom="@dimen/search_category_padding_v">
 
         <TextView

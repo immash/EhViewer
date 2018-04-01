@@ -28,8 +28,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:paddingLeft="@dimen/keyline_margin"
-        android:paddingRight="@dimen/keyline_margin"
+        android:paddingStart="@dimen/keyline_margin"
+        android:paddingEnd="@dimen/keyline_margin"
         android:clipToPadding="false"
         android:scrollbars="none"
         android:overScrollMode="never">

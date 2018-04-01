@@ -20,8 +20,8 @@
   android:orientation="vertical"
   android:layout_width="match_parent"
   android:layout_height="wrap_content"
-  android:paddingLeft="@dimen/keyline_margin"
-  android:paddingRight="@dimen/keyline_margin"
+  android:paddingStart="@dimen/keyline_margin"
+  android:paddingEnd="@dimen/keyline_margin"
   android:paddingTop="8dp"
   android:paddingBottom="8dp">
 

@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginBottom="@dimen/advance_search_table_item_margin"
-                android:layout_marginRight="@dimen/advance_search_table_item_margin"
+                android:layout_marginEnd="@dimen/advance_search_table_item_margin"
                 android:checked="true"
                 android:text="@string/search_uss"/>
 
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginBottom="@dimen/advance_search_table_item_margin"
-                android:layout_marginLeft="@dimen/advance_search_table_item_margin"
+                android:layout_marginStart="@dimen/advance_search_table_item_margin"
                 android:checked="false"
                 android:text="@string/search_osc"/>
         </TableRow>
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginTop="@dimen/advance_search_table_item_margin"
-                android:layout_marginRight="@dimen/advance_search_table_item_margin"
+                android:layout_marginEnd="@dimen/advance_search_table_item_margin"
                 android:checked="false"
                 android:text="@string/search_se"/>
 
@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginTop="@dimen/advance_search_table_item_margin"
-                android:layout_marginLeft="@dimen/advance_search_table_item_margin"
+                android:layout_marginStart="@dimen/advance_search_table_item_margin"
                 android:checked="false"/>
 
         </TableRow>

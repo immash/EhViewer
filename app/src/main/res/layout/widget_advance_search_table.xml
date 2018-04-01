@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginBottom="@dimen/advance_search_table_item_margin"
-            android:layout_marginRight="@dimen/advance_search_table_item_margin"
+            android:layout_marginEnd="@dimen/advance_search_table_item_margin"
             android:checked="true"
             android:text="@string/search_sname"/>
 
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginBottom="@dimen/advance_search_table_item_margin"
-            android:layout_marginLeft="@dimen/advance_search_table_item_margin"
+            android:layout_marginStart="@dimen/advance_search_table_item_margin"
             android:checked="true"
             android:text="@string/search_stags"/>
     </TableRow>
@@ -43,7 +43,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/advance_search_table_item_margin"
             android:layout_marginBottom="@dimen/advance_search_table_item_margin"
-            android:layout_marginRight="@dimen/advance_search_table_item_margin"
+            android:layout_marginEnd="@dimen/advance_search_table_item_margin"
             android:text="@string/search_sdesc"/>
 
         <CheckBox
@@ -52,7 +52,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/advance_search_table_item_margin"
             android:layout_marginBottom="@dimen/advance_search_table_item_margin"
-            android:layout_marginLeft="@dimen/advance_search_table_item_margin"
+            android:layout_marginStart="@dimen/advance_search_table_item_margin"
             android:text="@string/search_storr"/>
     </TableRow>
 
@@ -63,7 +63,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/advance_search_table_item_margin"
             android:layout_marginBottom="@dimen/advance_search_table_item_margin"
-            android:layout_marginRight="@dimen/advance_search_table_item_margin"
+            android:layout_marginEnd="@dimen/advance_search_table_item_margin"
             android:text="@string/search_sto"/>
 
         <CheckBox
@@ -72,7 +72,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/advance_search_table_item_margin"
             android:layout_marginBottom="@dimen/advance_search_table_item_margin"
-            android:layout_marginLeft="@dimen/advance_search_table_item_margin"
+            android:layout_marginStart="@dimen/advance_search_table_item_margin"
             android:text="@string/search_sdt1"/>
     </TableRow>
 
@@ -83,7 +83,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/advance_search_table_item_margin"
             android:layout_marginBottom="@dimen/advance_search_table_item_margin"
-            android:layout_marginRight="@dimen/advance_search_table_item_margin"
+            android:layout_marginEnd="@dimen/advance_search_table_item_margin"
             android:text="@string/search_sdt2"/>
 
         <CheckBox
@@ -92,7 +92,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/advance_search_table_item_margin"
             android:layout_marginBottom="@dimen/advance_search_table_item_margin"
-            android:layout_marginLeft="@dimen/advance_search_table_item_margin"
+            android:layout_marginStart="@dimen/advance_search_table_item_margin"
             android:text="@string/search_sh"/>
     </TableRow>
 
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginTop="@dimen/advance_search_table_item_margin"
-            android:layout_marginRight="@dimen/advance_search_table_item_margin"
+            android:layout_marginEnd="@dimen/advance_search_table_item_margin"
             android:text="@string/search_sr"/>
 
         <Spinner
@@ -110,7 +110,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginTop="@dimen/advance_search_table_item_margin"
-            android:layout_marginLeft="@dimen/advance_search_table_item_margin"
+            android:layout_marginStart="@dimen/advance_search_table_item_margin"
             android:entries="@array/search_min_rating"/>
     </TableRow>
 

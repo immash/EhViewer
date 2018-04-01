@@ -20,5 +20,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:paddingLeft="@dimen/keyline_margin"
-    android:paddingRight="@dimen/keyline_margin"/>
+    android:paddingStart="@dimen/keyline_margin"
+    android:paddingEnd="@dimen/keyline_margin"/>

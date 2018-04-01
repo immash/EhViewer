@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginBottom="@dimen/category_table_item_margin"
-            android:layout_marginRight="@dimen/category_table_item_margin"
+            android:layout_marginEnd="@dimen/category_table_item_margin"
             android:background="@color/doujinshi"
             android:textColor="@android:color/white"
             android:text="@string/doujinshi" />
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginBottom="@dimen/category_table_item_margin"
-            android:layout_marginLeft="@dimen/category_table_item_margin"
+            android:layout_marginStart="@dimen/category_table_item_margin"
             android:background="@color/manga"
             android:textColor="@android:color/white"
             android:text="@string/manga" />
@@ -49,7 +49,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/category_table_item_margin"
             android:layout_marginBottom="@dimen/category_table_item_margin"
-            android:layout_marginRight="@dimen/category_table_item_margin"
+            android:layout_marginEnd="@dimen/category_table_item_margin"
             android:background="@color/artist_cg"
             android:textColor="@android:color/white"
             android:text="@string/artist_cg" />
@@ -61,7 +61,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/category_table_item_margin"
             android:layout_marginBottom="@dimen/category_table_item_margin"
-            android:layout_marginLeft="@dimen/category_table_item_margin"
+            android:layout_marginStart="@dimen/category_table_item_margin"
             android:background="@color/game_cg"
             android:textColor="@android:color/white"
             android:text="@string/game_cg" />
@@ -75,7 +75,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/category_table_item_margin"
             android:layout_marginBottom="@dimen/category_table_item_margin"
-            android:layout_marginRight="@dimen/category_table_item_margin"
+            android:layout_marginEnd="@dimen/category_table_item_margin"
             android:background="@color/western"
             android:textColor="@android:color/white"
             android:text="@string/western" />
@@ -87,7 +87,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/category_table_item_margin"
             android:layout_marginBottom="@dimen/category_table_item_margin"
-            android:layout_marginLeft="@dimen/category_table_item_margin"
+            android:layout_marginStart="@dimen/category_table_item_margin"
             android:background="@color/non_h"
             android:textColor="@android:color/white"
             android:text="@string/non_h" />
@@ -101,7 +101,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/category_table_item_margin"
             android:layout_marginBottom="@dimen/category_table_item_margin"
-            android:layout_marginRight="@dimen/category_table_item_margin"
+            android:layout_marginEnd="@dimen/category_table_item_margin"
             android:background="@color/image_set"
             android:textColor="@android:color/white"
             android:text="@string/image_set" />
@@ -113,7 +113,7 @@
             android:layout_weight="1"
             android:layout_marginTop="@dimen/category_table_item_margin"
             android:layout_marginBottom="@dimen/category_table_item_margin"
-            android:layout_marginLeft="@dimen/category_table_item_margin"
+            android:layout_marginStart="@dimen/category_table_item_margin"
             android:background="@color/cosplay"
             android:textColor="@android:color/white"
             android:text="@string/cosplay" />
@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginTop="@dimen/category_table_item_margin"
-            android:layout_marginRight="@dimen/category_table_item_margin"
+            android:layout_marginEnd="@dimen/category_table_item_margin"
             android:background="@color/asian_porn"
             android:textColor="@android:color/white"
             android:text="@string/asian_porn" />
@@ -137,7 +137,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginTop="@dimen/category_table_item_margin"
-            android:layout_marginLeft="@dimen/category_table_item_margin"
+            android:layout_marginStart="@dimen/category_table_item_margin"
             android:background="@color/misc"
             android:textColor="@android:color/white"
             android:text="@string/misc" />

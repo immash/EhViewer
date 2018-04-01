@@ -19,8 +19,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingLeft="@dimen/keyline_margin"
-    android:paddingRight="@dimen/keyline_margin"
+    android:paddingStart="@dimen/keyline_margin"
+    android:paddingEnd="@dimen/keyline_margin"
     android:paddingTop="8dp"
     android:paddingBottom="8dp" >
 
@@ -33,13 +33,13 @@
         android:id="@+id/time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentEnd="true"/>
 
     <com.hippo.widget.LinkifyTextView
         android:id="@+id/comment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/user"
+        android:layout_alignStart="@id/user"
         android:layout_below="@id/user"
         android:layout_marginTop="8.0dp"
         android:ellipsize="end"

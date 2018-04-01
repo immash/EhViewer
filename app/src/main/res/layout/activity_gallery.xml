@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:layout_marginTop="@dimen/gallery_widget_margin_v"
-        android:layout_marginRight="@dimen/gallery_widget_margin_h"
+        android:layout_marginEnd="@dimen/gallery_widget_margin_h"
         android:textColor="@color/secondary_text_dark"/>
 
     <TextView
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="left"
         android:layout_marginTop="@dimen/gallery_widget_margin_v"
-        android:layout_marginLeft="@dimen/gallery_widget_margin_h"
+        android:layout_marginStart="@dimen/gallery_widget_margin_h"
         android:drawablePadding="4dp"
         app:color="@color/secondary_text_dark"
         app:warningColor="@color/red_500"/>
@@ -60,8 +60,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
         android:orientation="horizontal"
         android:background="@color/gallery_slider_background"
         android:fitsSystemWindows="true"
